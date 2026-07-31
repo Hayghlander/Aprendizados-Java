@@ -3,11 +3,13 @@ public class main {
 
     public static void main(String[] args) {
 
-        int k = 0;
-        do {
-            System.out.println(k);
-            k++;
-        } while (k < 5);
+        for (int i = 0; i < 10; i++) {
+            if (i == 5) {
+
+                continue; // pula a interação quando i é igual a 5
+            }
+            System.err.println(i);
+        }
 
     }
 }
