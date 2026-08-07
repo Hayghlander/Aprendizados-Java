@@ -1,5 +1,5 @@
 
-import empresa.dados.Funcionario;
+import empresa.dados.*;
 
 public class FolhaDePagamento {
 
